@@ -11,9 +11,8 @@ class Individual:
         else:
             self.encoded_individual = individ
 
-    @cached_property
     def mutation_chance(self):
-        return 1/10
+        return 0.3
 
     @property
     def individual(self):

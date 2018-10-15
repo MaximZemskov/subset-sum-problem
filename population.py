@@ -9,8 +9,8 @@ class Population:
         self.array = array
         self.desired_number = desired_number
         self.size = size
-        self.survivals_size = int(self.size * 0.2)
-        self.mutants_size = int(self.size * 0.4)
+        self.survivals_size = int(self.size * 0.15)
+        self.mutants_size = int(self.size * 0.3)
         self.childs_size = int(self.size * 0.3)
         self._population = []
 
